@@ -178,3 +178,25 @@ body {
     padding: 15px 0px;
     color: var(--soft-blue);
 }
+
+@media screen and (min-width: 600px) {
+    .card {
+        max-width: 350px;
+    }
+
+    .card__desc {
+        font-size: 1.1rem;
+    }
+
+    .card__price-block {
+        padding-top: 20px;
+    }
+
+    .card__line {
+        margin-top: 25px;
+    }
+
+    .card__author {
+        padding-bottom: 10px;
+    }
+}
